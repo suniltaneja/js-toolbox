@@ -1,0 +1,11 @@
+export const Greeter = (name: string) => `Hello ${name}`;
+export const isEven = (n: number) => n % 2 === 0;
+export const reverse = (s: string) => s.split('').reverse().join('');
+export const isWeekday = (d: Date) => d.getDay() % 6 !== 0;
+export const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+export const capitalize= (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+export const isArrayEmpty = (arr: any[]) => Array.isArray(arr) && !arr.length;
+export const isObjectEmpty = (obj: any) => obj && Object.keys(obj).length === 0;
+export const randomInteger = (min: number, max: number) => Math.floor(Math.random() * (max - min + 1)) + min;
+export const randomBoolean = () => Math.random() >= 0.5;
+export const toggleBoolean = (val: boolean) => (val = !val);

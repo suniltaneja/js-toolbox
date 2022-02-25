@@ -1,0 +1,11 @@
+export declare const Greeter: (name: string) => string;
+export declare const isEven: (n: number) => boolean;
+export declare const reverse: (s: string) => string;
+export declare const isWeekday: (d: Date) => boolean;
+export declare const wait: (ms: number) => Promise<unknown>;
+export declare const capitalize: (s: string) => string;
+export declare const isArrayEmpty: (arr: any[]) => boolean;
+export declare const isObjectEmpty: (obj: any) => any;
+export declare const randomInteger: (min: number, max: number) => number;
+export declare const randomBoolean: () => boolean;
+export declare const toggleBoolean: (val: boolean) => boolean;
